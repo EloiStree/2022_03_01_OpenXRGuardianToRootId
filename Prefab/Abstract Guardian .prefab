@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 2180206070952866524}
   - component: {fileID: 2180206070952866522}
   - component: {fileID: 2180206070952866525}
-  - component: {fileID: 2180206070952866527}
+  - component: {fileID: 2180206071413431186}
   m_Layer: 0
   m_Name: 'Abstract Guardian '
   m_TagString: Untagged
@@ -365,8 +365,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2180206070952866527}
-        m_TargetAssemblyTypeName: DebugDrawLinesFromVector3Mono, Assembly-CSharp
+      - m_Target: {fileID: 2180206071413431186}
+        m_TargetAssemblyTypeName: DebugDrawLinesFromVector3Mono, be.eloistree.generaltoolbox
         m_MethodName: SetPoints
         m_Mode: 0
         m_Arguments:
@@ -377,7 +377,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2180206070952866527
+--- !u!114 &2180206071413431186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2180206070952866519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad9f1c4828cff5247802dc331f414e5b, type: 3}
+  m_Script: {fileID: 11500000, guid: b0fc8145e2f96b54a932de8da5add3a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_points: []
